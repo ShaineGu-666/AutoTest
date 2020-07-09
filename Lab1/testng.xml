@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tests" verbose="5" parallel="true" thread-count="1"
+	configfailurepolicy="continue">
+
+
+
+
+	<test name="test" preserve-order="false">
+	
+		<!-- <listeners class-name="util.TestListener"></listeners> -->
+			<parameter name="dataDriven" value="dataValue"/>
+			<parameter name="browserFlag" value="chrome"/>
+			<parameter name="runningOnGrid" value="false" />
+			<parameter name="hubHost" value="10.2.1.164" />
+			<parameter name="hubPort" value="4444" />
+			<parameter name="envFlag" value="QA1" />
+			
+	
+
+		<packages>
+			<package name="testcases"/>
+		
+		</packages>
+	
+	</test>
+
+
+
+
+
+
+
+</suite>

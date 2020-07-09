@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="test">
+    <parameter name="env" value="production"></parameter>
+    <test name="test01">
+
+        <classes>
+            <class name="com.tuners.console.testcases.TC01_sickLeaveStatistics"></class>
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="wechatTeacher">
+   <test name="teacherForWechat">
+       <parameter name="env" value="0"></parameter>
+        <classes>
+
+<class name="com.tuners.mobile.testcase.teacher.wechat.homework.publishHomework.TC02_发布作业到一个常用班级无需提交"></class>
+            <class name="com.tuners.mobile.testcase.teacher.wechat.homework.publishHomework.TC03_发布作业到多个常用班级无需提交"></class>
+        </classes>
+
+    </test>
+    <!--
+       <test name="teacherForParents">
+           <parameter name="env" value="1"></parameter>
+           <classes>
+
+               <class name="com.tuners.mobile.testcase.parents.wechat.homework.TC01_提交需要在线提交的作业"></class>
+
+
+           </classes>
+
+       </test>
+
+-->
+
+   </suite>
